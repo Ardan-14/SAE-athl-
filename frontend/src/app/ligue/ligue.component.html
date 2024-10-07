@@ -39,28 +39,16 @@
     <!-- fin webdoc -->
 
     <!-- début cartes athletes -->
-    <div class=" bg-img-ligue">
-        <div class="container py-5">
-            <h1 class="text-center mb-4 font fs-3 fs-lg-1">CCartes Des Athlètes</h1>
-            <div id="app" class="container">
-                <div class="card" style="background-image: url('../../assets/img/marchand.jpg')">
-                  <h1>Loan VILLE</h1>
-                  <p>400m haies</p>
-                </div>
-                <div class="card" style="background-image: url('../../assets/img/marchand.jpg');">
-                  <h1>Beaches</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <div class="card" style="background-image: url('../../assets/img/marchand.jpg');">
-                  <h1>Trees</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-                <div class="card" style="background-image: url('../../assets/img/marchand.jpg');">
-                  <h1>Lakes</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-              </div>
+    <div class="bg-img-ligue">
+      <div class="container py-5">
+        <h1 class="text-center mb-4 font fs-3 fs-lg-1">Cartes Des Athlètes</h1>
+        <div id="app" class="container">
+          <div *ngFor="let athlete of athletes" class="card" [style.background-image]="'url(' + athlete.image_url + ')'">
+            <h1>{{ athlete.titre }}</h1>
+            <p>{{ athlete.contenu }}</p>
+          </div>
         </div>
+      </div>
     </div>
     
     <!-- fin cartes athletes -->
