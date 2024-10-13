@@ -28,12 +28,13 @@
 }
 
 .bg-img {
-    background-image: url("../../../public/img/ligne.jpg");
+    background-image: url("../../../public/img/ACCUEIL - Bandeau.jpg");
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
-    padding: 50px;
+    padding: 150px;
 }
+
 .img-acc {
     width: 60%;
     border-radius: 5%;
