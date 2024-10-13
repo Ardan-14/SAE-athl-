@@ -32,37 +32,41 @@
         <div class="card-body card-body-custom">
             <form>
                 <div class="form-group">
-                    <label for="nom">Nom</label>
-                    <input type="text" class="form-control form-control-custom" id="nom" placeholder="Entrez votre nom" required>
+                    <label for="nom">Nom *</label>
+                    <input required type="text" class="form-control form-control-custom" id="nom" placeholder="Entrez votre nom" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="prenom">Prénom</label>
-                    <input type="text" class="form-control form-control-custom" id="prenom" placeholder="Entrez votre prénom" required>
+                    <label for="prenom">Prénom *</label>
+                    <input required type="text" class="form-control form-control-custom" id="prenom" placeholder="Entrez votre prénom" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control form-control-custom" id="email" placeholder="EX : pierre.dupont@gmail.com" required>
+                    <label for="email">Email *</label>
+                    <input required type="email" class="form-control form-control-custom" id="email" placeholder="EX : pierre.dupont@gmail.com" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="telephone">Téléphone</label>
-                    <input type="tel" class="form-control form-control-custom" id="telephone" placeholder="EX : 70.70.70" required>
+                    <label for="telephone">Téléphone *</label>
+                    <input required type="tel" class="form-control form-control-custom" id="telephone" placeholder="EX : 70.70.70" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="club">Choix du club</label>
+                    <label for="club">Choix du club *</label>
                     <select class="form-control form-control-custom" id="club" required>
                         <option value="" disabled selected>Sélectionnez un club</option>
-                        <option value="club1">Club 1</option>
-                        <option value="club2">Club 2</option>
-                        <option value="club3">Club 3</option>
+                        <option value="ASPTT Nouvelle-Calédonie">ASPTT Nouvelle-Calédonie</option>
+                        <option value="Olympique de Nouméa section athlé">Olympique de Nouméa section athlé</option>
+                        <option value="JS-Vallée du Tir">JS-Vallée du Tir</option>
+                        <option value="Club Athlétique Jules Garnier">Club Athlétique Jules Garnier</option>
+                        <option value="AS Rivière Salée">AS Rivière Salée</option>
+                        <option value="Track NC">Track NC</option>
+                        <option value="Athletic club espoir de Boulari">Athletic club espoir de Boulari</option>
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <label for="licence">Choix de la licence (facultatif)</label>
+                    <label for="licence">Choix de la licence</label>
                     <select class="form-control form-control-custom" id="licence">
                         <option value="" selected>Aucune licence</option>
                         <option value="loisir">Licence Loisir</option>
