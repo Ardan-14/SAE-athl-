@@ -108,15 +108,15 @@ h3 {
 
 .carousel-control-prev,
 .carousel-control-next {
-    top: 50%; /* Centre les flèches verticalement */
-    transform: translateY(-50%); /* Ajuste le positionnement pour qu'elles soient parfaitement centrées */
-    height: 50px; /* Ajustez si nécessaire */
-    width: 50px; /* Ajustez si nécessaire */
+    top: 50%; 
+    transform: translateY(-50%);
+    height: 50px;
+    width: 50px; 
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    width: 30px; /* Ajustez si nécessaire */
-    height: 30px; /* Ajustez si nécessaire */
+    width: 30px; 
+    height: 30px; 
 }
 
