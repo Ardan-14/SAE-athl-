@@ -6,7 +6,7 @@ Projet de site web pour l'athlétisme en Nouvelle-Calédonie. Le site inclut une
 
 ### Cloner le Dépôt
 
-```bash
+
 git clone https://github.com/votre-nom-utilisateur/SAE-athl-.git
 cd SAE-athl-
 
@@ -58,3 +58,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Jeux phaser
+
+Il y a 3 jeux phaser intégrés au site web, tous les jeux sont individuellement hébergés sur Netlify
+
+ 1 - lancer de poids : https://lancerdepoids.netlify.app
+ 2 - saut en hauteur : https://sautenhauteur.netlify.app
+ 3 - course 100m : https://100matheltisme.netlify.app
+
+ ## Deploiement site web frontend
+
+ Le site web de ce projet est hébergé sur Netlify en production, voici son accès url : https://athletisme-nc.netlify.app
+
+ ## Deploiement site web server backend
+
+ Le server de ce projet est hébergé sur Render, voii son accès url : https://athlebackend.onrender.com
